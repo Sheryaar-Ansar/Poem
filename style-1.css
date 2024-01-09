@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(./image/poem_1.avif);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    backdrop-filter: blur(8px);
+}
+
+div{
+    height: 440px;
+    width: 540px;
+    background-image: url(./image/poem_1.avif);
+    background-repeat: no-repeat;
+    background-position: 65%;
+    background-size: cover;
+}
