@@ -29,7 +29,7 @@ header{
 
 header h2{
     pointer-events: none;
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 700;
     color: #141d92;
 }
@@ -44,7 +44,7 @@ header h2{
 
 .navigation a:hover,
 .navigation a.home{ 
-    text-decoration: underline 2px solid;
+    text-decoration: underline 4px solid;
 }
 
 .para{

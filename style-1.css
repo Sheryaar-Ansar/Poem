@@ -1,27 +1,78 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-image: url(./image/poem_1.avif);
+    background-image: url(./image/poem_1.jpg);
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: cover;
     backdrop-filter: blur(8px);
 }
 
-div{
-    height: 440px;
+header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    opacity: 0.8;
+    height: 50px;
+}
+
+header h2{
+    pointer-events: none;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #141d92;
+}
+
+.navigation a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.navigation a:hover,
+.navigation a.poem{
+    text-decoration: underline 4px solid;
+}
+
+div {
+    height: 540px;
     width: 540px;
-    background-image: url(./image/poem_1.avif);
+    background-image: url(./image/poem_1.jpg);
     background-repeat: no-repeat;
     background-position: 65%;
     background-size: cover;
+    border: 1px solid color(srgb-linear 255 255 222);
+    border-radius: 10px;
+}
+
+.poem-1 p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -15px;
+    margin-left: 130px;
+    width: 200px;
+    padding-top: 70px;
+    /* margin: 70px; */
+    font-size: 20px;
+    color: grey;
+    font-weight: 600;
 }

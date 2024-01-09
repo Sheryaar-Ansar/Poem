@@ -9,12 +9,46 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 130vh;
+    min-height: 100vh;
     background-image: url(./image/poem-2.jpg);
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: cover;
     backdrop-filter: blur(8px);
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    opacity: 0.8;
+    height: 50px;
+}
+
+header h2{
+    pointer-events: none;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #141d92;
+}
+
+.navigation a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.navigation a:hover,
+.navigation a.poem{
+    text-decoration: underline 4px solid;
 }
 
 div{
@@ -24,4 +58,27 @@ div{
     background-repeat: no-repeat;
     background-position: 65%;
     background-size: cover;
+    border: 1px solid color(srgb-linear 255 255 222);
+    border-radius: 10px;
+}
+
+
+.poem-2 p, h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    backdrop-filter: blur(2px); 
+
+}
+
+.poem-2 h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    color: #141d92;
 }
